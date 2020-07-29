@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NHL Bracket 2020</title>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+  <nav role='navigation' class='nav'>
+    <div class='hamburger'>
+      <div class='nav_bar bar1'></div>
+      <div class='nav_bar bar2'></div>
+      <div class='nav_bar bar3'></div>
+    </div>
+    <div class='app_name'>NHL Bracket</div>
+    <!-- <ul class='nav_list'>
+      <li class='nav_item'>Home</li>
+      <li class='nav_item'>Calendar</li>
+      <li class='nav_item'>Tasks</li>
+      <li class='nav_item'>Shopping Lists</li>
+      <li class='nav_item'>Family</li>
+    </ul> -->
+  </nav>
+  <main role='main'>
+    <header class='calendar_month' role='banner'>
+      <h1>Qualifying Round</h1>
+      <div class="conference">
+        <h2>Eastern Conference</h2>
+        <p>Switch conferences:</p>
+        <button type="button" class="bttn conf-bttn">Eastern</button>
+        <button type="button" class="bttn conf-bttn active">Western</button>
+      </div>
+    </header>
+    <div class='qualifier-conference-container'>
+      <div class='qualifier-round'>
+        <div class='qualifier-matchup'>
+          <div class="qualifier-matchup-seed">
+            Calgary
+          </div>
+          <div class="qualifier-matchup-seed">
+            Winnipeg
+          </div>
+        </div>
+        <div class='qualifier-matchup-winner'>
+          <select name="winner" id="winner">
+            <option selected value="Pick a winner">Winner</option>
+            <option value="Calgary">Calgary</option>
+            <option value="Winnipeg">Winnipeg</option>
+          </select>
+        </div>
+        <div class='qualifier-matchup-duration'>
+          <select name="duration" id="duration">
+            <option selected value="Select series duration">Series duration</option>
+            <option value="3">3 games</option>
+            <option value="4">4 games</option>
+            <option value="5">5 games</option>
+          </select>
+        </div>
+      </div>
+      <div class='qualifier-round'>
+        <div class='qualifier-matchup'>
+          <div class="qualifier-matchup-seed">
+            Edmonton
+          </div>
+          <div class="qualifier-matchup-seed">
+            Chicago
+          </div>
+        </div>
+        <div class='qualifier-matchup-winner'>
+          <select name="winner" id="winner">
+            <option selected value="Pick a winner">Winner</option>
+            <option value="Calgary">Edmonton</option>
+            <option value="Winnipeg">Chicago</option>
+          </select>
+        </div>
+        <div class='qualifier-matchup-duration'>
+          <select name="duration" id="duration">
+            <option selected value="Select series duration">Series duration</option>
+            <option value="3">3 games</option>
+            <option value="4">4 games</option>
+            <option value="5">5 games</option>
+          </select>
+        </div>
+      </div>
+      <div class='qualifier-round'>
+        <div class='qualifier-matchup'>
+          <div class="qualifier-matchup-seed">
+            Vancouver
+          </div>
+          <div class="qualifier-matchup-seed">
+            Minnesota
+          </div>
+        </div>
+        <div class='qualifier-matchup-winner'>
+          <select name="winner" id="winner">
+            <option selected value="Pick a winner">Winner</option>
+            <option value="Calgary">Vancouver</option>
+            <option value="Winnipeg">Minnesota</option>
+          </select>
+        </div>
+        <div class='qualifier-matchup-duration'>
+          <select name="duration" id="duration">
+            <option selected value="Select series duration">Series duration</option>
+            <option value="3">3 games</option>
+            <option value="4">4 games</option>
+            <option value="5">5 games</option>
+          </select>
+        </div>
+      </div>
+      <div class='qualifier-round'>
+        <div class='qualifier-matchup'>
+          <div class="qualifier-matchup-seed">
+            Nashville
+          </div>
+          <div class="qualifier-matchup-seed">
+            Phoenix
+          </div>
+        </div>
+        <div class='qualifier-matchup-winner'>
+          <select name="winner" id="winner">
+            <option selected value="Pick a winner">Winner</option>
+            <option value="Calgary">Nashville</option>
+            <option value="Winnipeg">Phoenix</option>
+          </select>
+        </div>
+        <div class='qualifier-matchup-duration'>
+          <select name="duration" id="duration">
+            <option selected value="Select series duration">Series duration</option>
+            <option value="3">3 games</option>
+            <option value="4">4 games</option>
+            <option value="5">5 games</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="submit">
+      <button type="submit">Submit your pics</button>
+    </div>
+  </main>
+  <footer role='content-info'>Footer</footer>
+</body>
+
+</html>

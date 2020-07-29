@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: "Open Sans",
+  sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+nav,
+footer {
+  padding: 1% 10px;
+  background-color: #aaa;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 5px;
+  line-height: 35px;
+  vertical-align: middle;
+}
+
+.bar1, .bar2, .bar3 {
+width: 35px;
+height: 5px;
+background-color: #333;
+margin: 6px 0;
+transition: 0.4s;
+}
+
+
+header {
+  padding: 45px 15px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+.pointsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+section {
+  min-height: 200px;
+  padding: 30px 15px;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+p + p {
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app_name {
+  font-size: 1.5em;
+}
+
+legend {
+  width: 100%;
+}
+
+.leader-board {
+  background-color: #ddd;
+}
+
+.leader-contestant {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  /* background-color: #ddd; */
+  text-align: left;    
+}
+
+.leader-contestant:nth-child(even) {
+  background-color: #bbb;    
+}
+
+.qualifier-conference-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qualifier-round {
+  display: flex;
+  align-items: center;
+  width: 320px;
+}
+
+.qualifier-matchup {
+  margin: 3px 0;
+}
+
+.qualifier-matchup-seed {
+  border: 2px solid black;
+  /* padding: 3px; */
+  margin-right: 5px;
+  width: 120px;
+}
+
+.qualifier-matchup-winner {
+  width: 80px;
+}
+
+.shoppingList_item {
+  display: flex;  
+}
+
+.item_desc {
+  padding-left: 10px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+}
+
+.task_desc {
+  display: flex;
+  justify-content: center;
+}
+
+.point_value {
+  padding-left: 20px;
+}
+
+.dueDate {
+  text-align: left;
+}
+
+.tip {
+  font-size: .5em;
+}
+
+.taskContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.task_check {
+  margin: auto 10px;
+}
+
+.task_check input{
+  width: 30px;
+  height: 30px
+}
