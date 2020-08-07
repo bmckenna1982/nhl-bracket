@@ -5,11 +5,14 @@ nav {
   right: 0;
   z-index: 10;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
-  padding: 1% 5px;
+  padding-top: 40px;
   line-height: 35px;
   vertical-align: middle;
   background-color: #000;
+  width: 200px;
+  transition: 0.4s;
 }
 
 .nav-list {

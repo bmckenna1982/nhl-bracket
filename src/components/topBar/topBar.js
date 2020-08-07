@@ -5,11 +5,11 @@ class TopBar extends Component {
   render() {
     return (
       <div className='top-bar'>
-        <div className='app-name'>MyFamily</div>
+        <div className='app-name'>ATL Hockey Bracket</div>
       </div>
 
     )
   }
 }
 
-export default 
+export default TopBar
